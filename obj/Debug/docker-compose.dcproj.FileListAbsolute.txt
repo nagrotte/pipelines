@@ -1,0 +1,15 @@
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\BackendAPI.deps.json
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\BackendAPI.runtimeconfig.json
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\appsettings.Development.json
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\appsettings.json
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\BackendAPI.exe
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\BackendAPI.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\Newtonsoft.Json.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\Microsoft.OpenApi.dll
+D:\DevOps\pipelines\backend1\WebApplication1\bin\Debug\BackendAPI.pdb
+D:\DevOps\pipelines\backend1\WebApplication1\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\DevOps\pipelines\backend1\WebApplication1\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\DevOps\pipelines\backend1\WebApplication1\obj\Debug\docker-compose.dcproj.CopyComplete
