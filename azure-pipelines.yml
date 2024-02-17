@@ -21,6 +21,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
+    
     - task: SonarCloudAnalyze@1
       inputs:
         jdkversion: 'JAVA_HOME_17_X64'
