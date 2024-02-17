@@ -11,6 +11,7 @@ resources:
 variables:
   tag: '$(Build.BuildId)'
 
+
 stages:
 - stage: Build
   displayName: Build image
@@ -20,6 +21,9 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
+    - task: SonarCloudAnalyze@1
+      inputs:
+        jdkversion: 'JAVA_HOME_17_X64'
     - task: Docker@2
       displayName: Build an image
       inputs:
@@ -27,3 +31,6 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
           $(tag)
+    - task: SonarCloudPublish@1
+      inputs:
+        pollingTimeoutSec: '300'
