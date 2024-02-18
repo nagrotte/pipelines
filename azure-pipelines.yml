@@ -20,18 +20,6 @@ stages:
     displayName: Build
     pool:
       vmImage: ubuntu-latest
-    steps:
+
     
-    - task: SonarCloudPrepare@1
-      inputs:
-        SonarCloud: 'SonarCloudAnalysis'
-        organization: 'nagrotte'
-        scannerMode: 'MSBuild'
-        projectKey: 'nagrotte_pipelines'
-        projectName: 'pipelines'
-    - task: SonarCloudAnalyze@1
-      inputs:
-        jdkversion: 'JAVA_HOME_17_X64'
-    - task: SonarCloudPublish@1
-      inputs:
-        pollingTimeoutSec: '300'
+
